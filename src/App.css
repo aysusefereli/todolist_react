@@ -1,0 +1,49 @@
+* {
+    background-color: grey;
+}
+.todolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 430px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 500px;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.addList {
+    background-color: cadetblue;
+    display: flex;
+    margin-bottom: 10px;
+}
+input {
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+}
+.addButton {
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.removeButton {
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 260px;
+}
+.clearButton {
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+.remove {
+    background-color: cadetblue;
+    margin-right: 20px;
+}
+h1 {
+    background-color: cadetblue;
+    font-size: 50px;
+}
